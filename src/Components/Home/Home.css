@@ -100,7 +100,7 @@ img{
 
 @media screen and (max-width: 600px) {
     .card-text{
-        font-size: 8px;
+        font-size: 5.5px;
     }
 
     .card-title{
@@ -124,6 +124,6 @@ img{
     }
 
     .content{
-        height: 175rem;
+        height: 180rem;
     }
 }
