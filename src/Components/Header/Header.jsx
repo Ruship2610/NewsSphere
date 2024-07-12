@@ -11,7 +11,7 @@ const Header = (props) => {
    return(
     <nav className="navbar navbar-expand-lg bg-dark  main-box fixed-top">
   <div className="container-fluid ">
-    <a to="#" className="navbar-brand text-light container"  >NewSphere <i className="fa-solid fa-globe"></i></a>
+    <a to="#" className="navbar-brand text-light container"  >NewsSphere <i className="fa-solid fa-globe"></i></a>
    
     <div className=" navbar-collapse" id="navbarNavAltMarkup">
      
