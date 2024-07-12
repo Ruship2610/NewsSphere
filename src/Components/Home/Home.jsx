@@ -47,7 +47,7 @@ const Home = (props) => {
              <p className="card-text">{news.content}</p>
              <p className='author'>Author : {news.author}</p>    
              <p id='read'><a href={news.readMoreUrl}>Read More</a></p> 
-   </div>
+           </div>
   </div>
   </div>
           </>

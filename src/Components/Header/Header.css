@@ -34,14 +34,9 @@
     left: 5rem;
     height: 25px;
     font-size: 20px;
-    color: white;
+    color: rgb(165, 16, 16);
     
 }
 
 
-@media screen and (max-width:600px){
-    .container-fluid{
-        display: flex;
-    }
-}
 
