@@ -13,7 +13,7 @@ const Header = (props) => {
   <div className="container-fluid ">
     <a to="#" className="navbar-brand text-light container"  >NewsSphere <i className="fa-solid fa-globe"></i></a>
    
-    <div className=" navbar-collapse" id="navbarNavAltMarkup">
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
      
       <div className="navbar-nav ">
    
