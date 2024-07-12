@@ -8,7 +8,8 @@
 
 
 .card{
-    height: 20.5rem;
+    height: fit-content;
+    width: 75rem;
     padding: 15px;
     margin-top: 7px;
     margin-bottom: 15px;
@@ -23,11 +24,9 @@
 }
 
 img{
-    height: 18rem;
+    height: 20rem;
     /* width: 17rem; */
     padding: 5px;
-  
-
 }
 
 /* .content{
@@ -40,7 +39,7 @@ img{
 } */
 
 .content{ 
-    height: 217rem;
+    height: 230rem;
     margin-top: 4rem;
     overflow-y: scroll;
     
@@ -60,8 +59,8 @@ img{
 }
 
 .card-body{
-    height: 20rem;
-    width: 25rem;
+    height: fit-content;
+    width: fit-content;
 }
 
 .card-title{
@@ -100,33 +99,53 @@ img{
 
 @media screen and (max-width: 600px) {
     .card-text{
-        font-size: 5.5px;
+        font-size: 8px;
     }
 
     .card-title{
-        font-size: 9px;
+        font-size: 11px;
+    }
+
+    .card-body{
+        height: fit-content;
     }
 
     .author{
-        font-size: 5px;
+        font-size: 7px;
     }
 
     #read{
-        font-size: 5px;
+        font-size: 7px;
     }
 
     .card{
+        height: 23.5rem;
+        width: 21rem;
+    }
+    
+    .img-box{
         height: 11rem;
-        width: 23rem;
+        width: 19rem;
+        padding: 7px;
     }
 
     img{
-        height: 13rem;
-        width: 13.5rem;
+        height: 11rem;
+        width: 2rem;
     }
+
+    /* img{
+        height: 15rem;
+        width: 3rem;
+        /* width: 7rem; */
+    /* } */ */
 
     .content{
         margin-top: 5rem;
         height: 175rem;
+    }
+
+    .mainbox{
+        display: block;
     }
 }
