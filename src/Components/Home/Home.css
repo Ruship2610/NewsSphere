@@ -116,14 +116,17 @@ img{
     }
 
     .card{
-        height: 17rem;
+        height: 15rem;
+        width: 25.5rem;
     }
 
     img{
-        height: 15rem;
+        height: 13rem;
+        width: 15rem;
     }
 
     .content{
-        height: 180rem;
+        margin-top: 5rem;
+        height: 170rem;
     }
 }
