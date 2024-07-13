@@ -151,6 +151,7 @@ input{
     }
 
     #inputcato{
+        display: block;
         position: relative;
         left: 1.5rem;
         color: white;
