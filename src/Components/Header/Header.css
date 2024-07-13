@@ -20,10 +20,23 @@
     text-decoration: none;
 }
 
+
+
 .navbar-nav{
     display: flex;
-    gap: 18px;
+    align-items: center;
+    position: relative;
+    margin-left: 57rem;
+    left: 39px;
+    padding-left: 3px;
+    width: 23rem;
+    gap: 8px;
+    color: white;
     cursor: pointer;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    /* margin-right: 8px; */
+    box-sizing: border-box;
 }
 
 
@@ -40,13 +53,108 @@
     
 }
 
+input{
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
+#inputcat{
+    margin-bottom: 0;
+}
 
-@media screen and (max-width:600px) {
+/* #search-icon{
+    margin-right: 10px;
+    margin-left: 3px;
     
+} */
+
+.search{
+
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    right: 9px;
+    height: 24.8px;
+    width: 29px;
+    border: 1px solid white;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.smallinp{
+    display: none;
+}
+
+.searchsmall{
+    display: none;
+}
+
+.inputcato{
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    
+    .nav{
+        height: 10rem;
+    }
+
+    a{
+        width: 10px;
+    }
+
+    input{
+        margin-right: 9px;
+        width: 90px;
+        border: none;
+        height: 1rem;
+        font-size: 9px;
+    }
     
     .container-fluid{
+        height: 3rem;
         display: flex;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+
+    .smallinp{
+        display: block;
+    }
+
+    .mobilemain{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      
+    }
+
+    .searchsmall{
+         display: block;
+        position: relative;
+        font-size: 9px;
+        right: 41px;
+        padding-right: 3px;
+        padding-left: 3px;
+        color: white;
+        border: 1px solid white;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        height: 16px ;
+        width: 30px;
+    }
+
+    #inputcato{
+        position: relative;
+        left: 1.5rem;
+        color: white;
+        margin-bottom: 0;
+        font-size: 13px;
     }
 }
 

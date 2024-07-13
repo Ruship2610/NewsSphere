@@ -1,4 +1,4 @@
-import {React,useState,useMemo,useEffect, useCallback} from 'react'
+import {React,useState,useMemo} from 'react'
 import axios from 'axios'
 
 import './Home.css';
@@ -7,23 +7,7 @@ import './Home.css';
 
 const Home = (props) => {
 
-  const [products,setProducts] = useState([]);
   
- 
-  const handleApi = ( async() => {
-    try{
-        axios.get(`https://inshortsapi.vercel.app/news?category=${props.category}`)
-        .then((response) => {
-          setProducts(response["data"]["data"]);
-        })
-    }catch(error){
-     console.log(`Something is wrong try again ${error}`)
-    }
-  });
-  
-  useEffect(() => {
-    handleApi();
-  },[props.category]);
 
  
   return (
@@ -45,8 +29,8 @@ const Home = (props) => {
 
    
  
-   {
-      products.map((news) => {
+   
+     {props.products.map((news) => {
         return(
           <>
           <div className="container card">
