@@ -92,8 +92,8 @@ input{
     display: none;
 }
 
-.inputcato{
-    display: none;
+#inputcato{
+   display: none;
 }
 
 @media screen and (max-width:991px) {
@@ -157,4 +157,13 @@ input{
         font-size: 13px;
     }
 }
+
+@media screen and (max-width:445px){
+    
+   .mobilemain{
+    position: relative;
+    right: 17px;
+   }
+}
+
 
