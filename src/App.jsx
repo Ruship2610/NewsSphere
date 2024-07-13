@@ -6,12 +6,14 @@ import Home from "./Components/Home/Home";
 
 
 
+
 function App() {
 
   const[category,setCategory] = useState("all");
  
   return (
     <>
+   
         <Header category={category} setCategory={setCategory}/>
         <Home category={category} setCategory={setCategory}/>
         <Footer/>

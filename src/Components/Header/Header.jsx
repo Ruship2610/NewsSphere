@@ -1,6 +1,7 @@
 import {React,} from 'react'
 
 import './Header.css'
+import Hamburger from '../Hamburger/Hamburger'
 
 
 const Header = (props) => {
@@ -17,7 +18,7 @@ const Header = (props) => {
      
       <div className="navbar-nav ">
    
-
+     
       <div onClick={() => {props.setCategory("entertainment")}} ><li  className="lists" >Entertainment</li></div>
         <div onClick={() => {props.setCategory("sports")}} ><li className="lists" >Sports</li></div>
         <div onClick={() => {props.setCategory("business")}}><li  className="lists" >Business</li></div>

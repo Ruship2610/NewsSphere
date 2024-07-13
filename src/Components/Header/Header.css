@@ -4,6 +4,8 @@
     
 }
 
+
+
 /* .container-fluid{
    position: sticky;
    box-shadow: 3px 3px 5px ;
@@ -39,4 +41,12 @@
 }
 
 
+
+@media screen and (max-width:600px) {
+    
+    
+    .container-fluid{
+        display: flex;
+    }
+}
 

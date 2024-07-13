@@ -29,9 +29,21 @@ const Home = (props) => {
   return (
     <>
 
-  
+{/* <div className='sidebar'>
+        <ul>
+        <div onClick={() => {props.setCategory("entertainment")}} ><li  className="lists" >Entertainment</li></div>
+        <div onClick={() => {props.setCategory("sports")}} ><li className="lists" >Sports</li></div>
+        <div onClick={() => {props.setCategory("business")}}><li  className="lists" >Business</li></div>
+        <div onClick={() => {props.setCategory("science")}}><li className="lists" >Science</li></div>
+        <div onClick={() => {props.setCategory("technology")}}><li  className="lists" >Technology</li></div>
+        </ul>
+      
+    </div> */}
+    
+    
   <div className="content">
 
+   
  
    {
       products.map((news) => {

@@ -38,6 +38,12 @@ img{
     box-sizing: border-box;
 } */
 
+span{
+    position: absolute;
+ 
+
+}
+
 .content{ 
     height: 230rem;
     margin-top: 4rem;
@@ -97,6 +103,8 @@ img{
     width: 35rem;
 }
 
+
+
 @media screen and (max-width: 600px) {
     .card-text{
         font-size: 8px;
@@ -148,4 +156,11 @@ img{
     .mainbox{
         display: block;
     }
+    
+    /* .col{
+        width: fit-content;
+            list-style-type: none;
+            color: black;
+            background-color: blue;
+        } */
 }
