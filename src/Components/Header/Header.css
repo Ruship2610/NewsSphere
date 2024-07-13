@@ -131,7 +131,7 @@ input{
     .mobilemain{
         display: flex;
         align-items: center;
-        gap: 2rem;
+        /* gap: 2rem; */
       
     }
 
@@ -139,10 +139,10 @@ input{
          display: block;
         position: relative;
         font-size: 9px;
-        right: 41px;
+        right: 10px;
         padding-right: 3px;
         padding-left: 3px;
-        color: white;
+        color: rgb(255, 255, 255);
         border: 1px solid white;
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
@@ -155,16 +155,22 @@ input{
         position: relative;
         left: 1.5rem;
         color: white;
+        margin-right: 29px;
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width:445px){
     
+    input{
+        width: 70px;
+    }
+
+
    .mobilemain{
     position: relative;
-    right: 17px;
+    right: 10px;
    }
 }
 
