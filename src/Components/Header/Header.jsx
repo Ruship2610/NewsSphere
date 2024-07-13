@@ -24,7 +24,7 @@ const Header = (props) => {
     <div className="navbar-collapse" id="navbarNavAltMarkup">
      
    
-      <div className="navbar-nav  ">
+      <div className="navbar-nav">
         <p id="inputcat" >Categories : </p>
         <input value={props.input} onChange={(e) => props.setInput(e.target.value)
         } placeholder='Search for the category'></input><div className='search' onClick={props.handleApi}><i id="search-icon" className="fa-solid fa-magnifying-glass"></i></div>
