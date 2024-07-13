@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
 <>
-    <div className="backto"><a href="#"><p id="backpara">Back To Top</p></a></div>
+    <div className="backtotop"><a href="#">Back To Top</a></div>
     <footer className="bg-dark text-white py-4 ">
 
     <div className="container">

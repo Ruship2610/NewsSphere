@@ -23,8 +23,21 @@ a{
     background-color: rgb(16, 15, 15);
 }
 
-#backpara{
+.backtotop{
+    text-align: center;
     font-size: 15px;
+    text-decoration: none;
     color: white;
+    background-color: black;
     margin-top: 15px;
+}
+
+a{
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    
+    
+    
 }
