@@ -28,7 +28,7 @@ nav{
     display: flex;
     align-items: center;
     position: relative;
-    margin-left: 79.5rem;
+    /* margin-left: 77.5rem; */
     left: 39px;
     padding-left: 3px;
     width: 23rem;
@@ -63,6 +63,7 @@ input{
 }
 
 #inputcat{
+    color: white;
     margin-bottom: 0;
 }
 
