@@ -19,9 +19,10 @@ const Header = (props) => {
     <div className='searchsmall' onClick={props.handleApi}><i id="search-icon" className="fa-solid fa-magnifying-glass"></i></div>
 
     </div>
+    </div>
    
     
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div className=" navbar-collapse" id="navbarNavAltMarkup">
      
    
       <div className="navbar-nav">
@@ -35,11 +36,11 @@ const Header = (props) => {
         <div onClick={() => {props.setCategory("business")}}><li  className="lists" >Business</li></div>
         <div onClick={() => {props.setCategory("science")}}><li className="lists" >Science</li></div>
         <div onClick={() => {props.setCategory("technology")}}><li  className="lists" >Technology</li></div></div> */}
-       </div>
+       
       </div>
     
     </div>
-    </nav>
-   )}
+     </nav>
+    )}
 
 export default Header

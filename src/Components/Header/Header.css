@@ -8,12 +8,13 @@ nav{
     height: 3.5rem;
 }
 
-/* .container-fluid{
-   position: sticky;
-   box-shadow: 3px 3px 5px ;
-} */
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
 
 .main-box{
+  
     box-shadow: 5px 5px 7px grey;
 }
 
