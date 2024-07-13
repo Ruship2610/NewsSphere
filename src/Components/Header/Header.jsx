@@ -22,7 +22,7 @@ const Header = (props) => {
     </div>
    
     
-    <div className=" navbar-collapse" id="navbarNavAltMarkup">
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
      
    
       <div className="navbar-nav">

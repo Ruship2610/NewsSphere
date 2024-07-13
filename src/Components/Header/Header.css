@@ -125,7 +125,7 @@ input{
     }
 
     .navbar-nav{
-        display: block;
+        display: none;
     }
 
     .smallinp{
