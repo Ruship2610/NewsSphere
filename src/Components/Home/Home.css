@@ -10,6 +10,7 @@
 .card{
     height: fit-content;
     width: 75rem;
+    width: fit-content;
     padding: 15px;
     margin-top: 7px;
     margin-bottom: 15px;
@@ -70,19 +71,20 @@ span{
 }
 
 .card-title{
-    font-size: 19px;
+    font-size: 25px;
 }
 
 .card-text{
-    font-size: 15px ;
+    font-size: 19px ;
 }
 
 .author{
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #read{
-   font-size: 13px;
+    color: black;
+   font-size: 15px;
 }
 
 .category{
@@ -102,6 +104,7 @@ span{
     height: 20rem;
     width: 35rem;
 }
+
 
 
 

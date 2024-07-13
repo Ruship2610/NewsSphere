@@ -42,7 +42,7 @@ const Home = (props) => {
              <h5 className="card-title">{news.title}</h5>
              <p className="card-text">{news.content}</p>
              <p className='author'>Author : {news.author}</p>    
-             <p id='read'><a href={news.readMoreUrl}>Read More</a></p> 
+             <p id='read' ><a href={news.readMoreUrl} >Read More</a></p> 
            </div>
   </div>
   </div>

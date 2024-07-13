@@ -10,14 +10,14 @@ import Home from "./Components/Home/Home";
 
 function App() {
 
-  const[category,setCategory] = useState("all");
+  
   const [input,setInput] = useState("all");
   const [products,setProducts] = useState([]);
   
  
   const handleApi = ( async() => {
     try{
-        axios.get(`https://inshortsapi.vercel.app/news?category=${input}`)
+        axios.get(`https://inshortsapi.vercel.app/news?category=${input.toLocaleLowerCase()}`)
         .then((response) => {
           setProducts(response["data"]["data"]);
         })
@@ -33,8 +33,8 @@ function App() {
   return (
     <>
    
-        <Header category={category} setCategory={setCategory} input={input} setInput={setInput}  products={products} setProducts={setProducts} handleApi={handleApi}/>
-        <Home category={category} setCategory={setCategory} input={input} setInput={setInput} products={products} setProducts={setProducts} />
+        <Header  input={input} setInput={setInput}  products={products} setProducts={setProducts} handleApi={handleApi}/>
+        <Home  input={input} setInput={setInput} products={products} setProducts={setProducts} />
         <Footer/>
     </>
     

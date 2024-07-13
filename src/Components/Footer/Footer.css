@@ -3,13 +3,15 @@
     padding : 0;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 .foot{
     width: 100%;
 }
 
-a{
+.text-white{
     text-decoration: none;
 }
 
@@ -27,12 +29,12 @@ a{
     text-align: center;
     font-size: 15px;
     text-decoration: none;
-    color: white;
+    color: rgb(239, 239, 239);
     background-color: black;
     margin-top: 15px;
 }
 
-a{
-    color: white;
+.text-white{
+    color: rgb(255, 255, 255);
 }
 
