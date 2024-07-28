@@ -15,7 +15,7 @@ const Header = (props) => {
     <div className='mobilemain'>
     <a to="#" className="navbar-brand text-light container" >NewsSphere <i className="fa-solid fa-globe"></i></a>
     <div className="left-side" >
-      <p className='text-light categ '>Category</p>
+     
 
       <select className="left-drop bg-dark text-light" value={props.category} onChange={e => props.setCategory(e.target.value)}>
       <option>all</option>
