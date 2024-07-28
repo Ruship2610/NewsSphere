@@ -1,4 +1,4 @@
-import React, { useState,useMemo } from "react";
+import React, { useState,useMemo, useEffect } from "react";
 import axios from 'axios';
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
@@ -10,31 +10,30 @@ import Home from "./Components/Home/Home";
 
 function App() {
 
-  
-  const [input,setInput] = useState("all");
+  const [category ,setCategory] = useState("all")
+ 
   const [products,setProducts] = useState([]);
   
  
-  const handleApi = ( async() => {
+ useMemo( async() => {
     try{
-        axios.get(`https://inshortsapi.vercel.app/news?category=${input.toLocaleLowerCase()}`)
+        axios.get(`https://inshortsapi.vercel.app/news?category=${category.toLowerCase()}`)
         .then((response) => {
           setProducts(response["data"]["data"]);
         })
     }catch(error){
      console.log(`Something is wrong try again ${error}`)
+
     }
-  });
+  },[category]);
   
-  useMemo(() => {
-    handleApi();
-  },[]);
+ 
  
   return (
     <>
    
-        <Header  input={input} setInput={setInput}  products={products} setProducts={setProducts} handleApi={handleApi}/>
-        <Home  input={input} setInput={setInput} products={products} setProducts={setProducts} />
+        <Header category={category}  setCategory={setCategory} products={products} setProducts={setProducts} />
+        <Home   products={products} setProducts={setProducts} />
         <Footer/>
     </>
     
