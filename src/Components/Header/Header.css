@@ -136,8 +136,8 @@ select{
 
     .left-drop{
         height: 25px;
-        width: 115px;
-        font-size: 10px;
+        width: 80px;
+        font-size: 7px;
         border-radius: 15px;
         border: 1px solid white;
         padding-left: 3px;
