@@ -39,11 +39,6 @@ span{
 .content{ 
     height:fit-content;
     margin-top: 4rem;
-    overflow-y: scroll;
-}
-
-.content::-webkit-scrollbar{
-    display: none;
 }
 
 #icon{
