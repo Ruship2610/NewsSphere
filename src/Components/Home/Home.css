@@ -19,8 +19,6 @@
     margin-bottom: 15px;
     box-sizing: border-box;
     box-shadow: 0px 0px  5px rgb(44, 43, 43);
-    /* display: inline-block; */
-    /* overflow-y: scroll; */
 }
 
 .card::-webkit-scrollbar{
@@ -29,18 +27,8 @@
 
 img{
     height: 20rem;
-    /* width: 17rem; */
     padding: 5px;
 }
-
-/* .content{
-    height: 100%;
-    width: 21rem;
-    border: 1px solid black;
-    margin: auto;
-    padding: 7px;
-    box-sizing: border-box;
-} */
 
 span{
     position: absolute;
@@ -52,11 +40,6 @@ span{
     height:fit-content;
     margin-top: 4rem;
     overflow-y: scroll;
-    
-
-    
-    /* background-image: url("news.jpeg"); */
-    /* box-shadow: 0px 0px 15px; */
 }
 
 .content::-webkit-scrollbar{
