@@ -48,24 +48,24 @@ span{
 
 .card-body{
     height: fit-content;
-    width: fit-content;
+    width: 40rem;
 }
 
 .card-title{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .card-text{
-    font-size: 17px ;
+    font-size: 15px ;
 }
 
 .author{
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #read{
     color: black;
-   font-size: 13px;
+   font-size: 11px;
 }
 
 .category{
@@ -83,7 +83,7 @@ span{
 
 .img-box{
     height: 20rem;
-    width: 35rem;
+    width: 23rem;
 }
 
 
