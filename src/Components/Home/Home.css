@@ -45,7 +45,7 @@ span {
 
 .card-body {
   height: fit-content;
-  width: 40rem;
+  width: fit-content;
 }
 
 .card-title {
@@ -79,7 +79,7 @@ span {
 
 .img-box {
   height: 20rem;
-  width: 23rem;
+  width: 27rem;
 }
 
 @media screen and (max-width: 600px) {
