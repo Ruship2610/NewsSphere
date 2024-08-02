@@ -17,7 +17,7 @@ const Header = (props) => {
               onChange={(e) => props.setCategory(e.target.value)}
             >
               <option>all</option>
-              <option>Sport</option>
+              <option>Sports</option>
               <option>Business</option>
               <option>Politics</option>
               <option>Technology</option>
