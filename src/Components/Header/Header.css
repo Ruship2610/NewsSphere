@@ -7,6 +7,11 @@ nav {
   height: 3.5rem;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
 .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -113,7 +118,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
+    gap: 7.1rem;
   }
 
   .left-side {
